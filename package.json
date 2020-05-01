@@ -1,0 +1,43 @@
+{
+	"name": "restaurants",
+	"version": "1.0.0",
+	"description": "Paypal Full stack developer hiring challenge @Hackerearth ",
+	"main": "index.js",
+	"author": "Sumit Agrawal",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/polyfill": "^7.8.3",
+		"@material-ui/core": "^4.2.0",
+		"@material-ui/icons": "^4.2.1",
+		"history": "^4.10.1",
+		"material-table": "^1.50.0",
+		"prop-types": "latest",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "^3.4.1",
+		"shineout": "^1.4.0",
+		"superagent": "^5.1.0"
+	},
+	"devDependencies": {
+		"terser-brunch": "^3.0.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

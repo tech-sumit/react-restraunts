@@ -1,0 +1,44 @@
+.App {
+	text-align: left;
+	width: 100%;
+}
+
+.App-header {
+	background-color: #ffffff;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #000000;
+}
+.App-nav {
+	background-color: rgba(87, 87, 87, 0.37);
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #000000;
+}
+.App-main {
+	background-color: #eeeeee;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #000000;
+}
+.App-footer {
+	background-color: #ffffff;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #000000;
+}
