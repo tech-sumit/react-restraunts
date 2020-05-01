@@ -1,7 +1,7 @@
 FROM node:13.12.0-alpine
 
 RUN npm install -g serve
-CMD serve -s build
+CMD serve -p 8000 -s build
 EXPOSE 8000
 
 COPY package.json package.json
