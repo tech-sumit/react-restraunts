@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 import MaterialTable from "material-table";
 import { data } from './Restraunts'
-import history from "./History";
 
 class RestrauntsList extends React.Component {
 	constructor(props) {
@@ -28,7 +27,7 @@ class RestrauntsList extends React.Component {
 	render() {
 		return (
 			<MaterialTable
-				title={"Top Selling Games"}
+				title={"Top Restraunts"}
 				columns={this.state.columns}
 				data={data}
 				options={{
@@ -38,10 +37,6 @@ class RestrauntsList extends React.Component {
 					loadingType: "overlay",
 					actionsColumnIndex: 100,
 					addRowPosition: "first",
-				}}
-				onRowClick={(event, rowData, toggleDetailPanel) => {
-					console.log(rowData);
-					history.push("/details", { data: rowData });
 				}}
 			/>
 		);
